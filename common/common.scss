@@ -244,7 +244,7 @@ html {
       var(--tertiary-hover) 0%,
       var(--tertiary) 100%
     );
-    clip-path: ellipse(148% 70% at 91% -14%);
+    clip-path: unset;
   }
 }
 
@@ -500,7 +500,7 @@ html body #main-outlet {
       var(--tertiary-hover) 0%,
       var(--tertiary) 100%
     );
-    clip-path: ellipse(148% 70% at 91% -14%);
+    clip-path: unset;
     content: "";
     width: 100%;
     height: 100%;
